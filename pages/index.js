@@ -51,7 +51,7 @@ export default function Home({recipes}) {
           </Typography>
           <Typography variant="body1" className={classes.typography}>
             Evə gələn çağırılmamış qonaq üçün qısa müddətdə ləzzətli salat hazırlaya bilərsiniz. Çox sadə...
-            <Link href="/salads"> 
+            <Link href="/salatlar/malibu-salati"> 
              &rArr; reseptə bax 
             </Link> 
           </Typography>
