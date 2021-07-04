@@ -15,7 +15,7 @@ import Chip from '@material-ui/core/Chip';
 
 const useStyles = makeStyles((theme) => ({
     root : {
-        height : theme.spacing(40),
+        height : theme.spacing(45),
         background : 'black',
         [theme.breakpoints.up('lg')]: {
           height : theme.spacing(30)

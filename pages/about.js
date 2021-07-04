@@ -9,7 +9,10 @@ const useStyles = makeStyles((theme) => ({
     typography : {
         margin : theme.spacing(1),
         wordSpacing : '1px',
-        lineHeight : 1.7
+        lineHeight : 1.7,
+        [theme.breakpoints.up('lg')]: {
+          wordSpacing : "0.5px"
+        },
       },
 }))
 const about = () => {
