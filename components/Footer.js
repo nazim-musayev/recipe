@@ -91,7 +91,7 @@ const Footer = () => {
             </Grid>
             <Grid item container xs={12} justify="center" className={classes.chipGrid}>
             {chipLabels.map(label => (
-              <Grid item xs={4} md={3} lg={2} key={label}>
+              <Grid item xs={4} md={3} lg={1} key={label}>
               <Chip  label={label} variant="outlined" color="primary" className={classes.chipItem}/>
               </Grid>
             ))}
